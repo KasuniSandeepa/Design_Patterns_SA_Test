@@ -1,0 +1,12 @@
+package Decorator;
+
+public class Consultant extends Employee{
+	
+	
+	
+	public void getSalary() {
+		this.salary=70000;
+		System.out.println("Consultant salary is "+ this.salary);
+	}
+
+}

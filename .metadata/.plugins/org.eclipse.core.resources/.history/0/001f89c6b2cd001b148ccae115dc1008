@@ -1,0 +1,12 @@
+package MCQ;
+
+public class Mocha extends CondimentDecorator{
+	
+	Beverages beverage;
+	
+	public Mocha(Beverages beverage) {
+		this.beverage = beverage;
+	}
+
+
+}

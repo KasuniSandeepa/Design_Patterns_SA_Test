@@ -1,0 +1,24 @@
+package MCQ;
+
+public class StreamedMilk  extends CondimentDecorator{
+	
+	Beverages beverage;
+	
+	public StreamedMilk(Beverages beverage) {
+		this.beverage = beverage;
+	}
+
+	@Override
+	public String gerDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double getCost() {
+		// TODO Auto-generated method stub
+		return beverage.getCost() + 75;
+	}
+
+
+}

@@ -1,0 +1,5 @@
+package MCQ;
+
+public class HouseBlend extends Beverages{
+
+}

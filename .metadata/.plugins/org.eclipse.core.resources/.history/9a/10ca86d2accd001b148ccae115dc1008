@@ -1,0 +1,9 @@
+package Decorator;
+
+public abstract class Employee {
+	
+	public String description = "Genral Employee";
+	
+	public abstract void getSalary();
+
+}

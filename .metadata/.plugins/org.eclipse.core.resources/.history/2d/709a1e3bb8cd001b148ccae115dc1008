@@ -1,0 +1,8 @@
+package MCQ;
+
+public class Test {
+
+	Beverages beverages = new DarkRoast();
+	beverages = new Soy(beverages);
+	
+}

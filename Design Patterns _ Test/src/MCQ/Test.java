@@ -1,0 +1,14 @@
+package MCQ;
+
+public class Test {
+
+	public static  void main(String[] args) {
+		
+		Beverages beverages = new DarkRoast();
+		beverages = new Soy(beverages);
+		beverages = new Mocha(beverages);
+		beverages = new Whip(beverages);
+		System.out.println(beverages.getDescription() + " => $" + beverages.getCost());
+	}
+	
+}

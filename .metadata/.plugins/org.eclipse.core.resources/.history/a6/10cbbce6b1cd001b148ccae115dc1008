@@ -1,0 +1,10 @@
+package Decorator;
+
+public abstract class Employee {
+	
+	private String description = "General employee";
+	
+	public abstract double getSalary();
+	
+
+}

@@ -1,0 +1,14 @@
+package Observer;
+
+public class ObserverImpl implements Observer {
+	
+	String observerName;
+	
+	public ObserverImpl(String name) {
+		this.observerName = name;
+	}
+
+	public void update(Subject subject) {
+		
+	}
+}

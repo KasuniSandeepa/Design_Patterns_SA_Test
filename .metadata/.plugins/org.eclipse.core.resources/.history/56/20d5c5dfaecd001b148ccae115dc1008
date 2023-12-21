@@ -1,0 +1,13 @@
+package Decorator;
+
+public class EmployeeCertification extends EmployeeQualification{
+	
+	Employee employee;
+	
+	public EmployeeCertification(Employee employee) {
+		this.employee = employee;
+	}
+	
+	
+
+}

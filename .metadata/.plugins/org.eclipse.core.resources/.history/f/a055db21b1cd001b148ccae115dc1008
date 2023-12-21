@@ -1,0 +1,12 @@
+package MCQ;
+
+public class DarkRoast extends Beverages {
+
+	private double cost = 1;
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

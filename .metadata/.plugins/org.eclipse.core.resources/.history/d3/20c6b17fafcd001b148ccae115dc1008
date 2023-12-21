@@ -1,0 +1,11 @@
+package Decorator;
+
+public class WorkExperience extends EmployeeQualification{
+	
+Employee employee;
+	
+	public WorkExperience(Employee employee) {
+		this.employee = employee;
+	}
+
+}

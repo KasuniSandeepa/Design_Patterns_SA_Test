@@ -1,0 +1,13 @@
+package Adapter;
+
+public class Adapter {
+	
+	Person person;
+	Student student;
+	
+	
+	public Adapter(Person person) {
+		this.person = person;
+	}
+
+}

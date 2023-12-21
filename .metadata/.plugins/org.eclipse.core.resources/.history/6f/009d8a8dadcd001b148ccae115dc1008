@@ -1,0 +1,23 @@
+package Decorator;
+
+public class EmployeeCertification extends EmployeeQualification{
+	
+	private double adding = 30000;
+	Employee employee;
+	
+	public EmployeeCertification(Employee employee) {
+		this.employee = employee;
+		
+	}
+	public void getSalary() {
+		
+		this.salary = this.salary + this.adding;
+		System.out.println(this.salary);
+		
+	}
+	
+	public void getDescription() {
+		
+	}
+
+}

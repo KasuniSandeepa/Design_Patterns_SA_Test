@@ -1,0 +1,9 @@
+package Adapter;
+
+public interface Student {
+	
+	public String getFullName();
+	public String getContactNumber();
+	public String getAge();
+
+}

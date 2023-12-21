@@ -1,0 +1,13 @@
+package Decorator;
+
+public class WorkExperience extends EmployeeQualification{
+	
+   public void getSalary() {
+		
+	}
+	
+	public void getDescription() {
+		
+	}
+
+}

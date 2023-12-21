@@ -1,0 +1,14 @@
+package Decorator;
+
+public class EmployeeCertification extends EmployeeQualification{
+	
+	private double adding = 30000;
+	public void getSalary() {
+		
+	}
+	
+	public void getDescription() {
+		
+	}
+
+}

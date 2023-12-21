@@ -1,0 +1,22 @@
+package Decorator;
+
+public class WorkExperience extends EmployeeQualification{
+	
+	private double adding = 20000;
+	Employee employee;
+	
+	public WorkExperience(Employee employee) {
+		this.employee = employee;
+	}
+	
+	
+   public void getSalary() {
+	 
+		System.out.println(employee.salary+this.adding);
+	}
+	
+	public void getDescription() {
+		
+	}
+
+}

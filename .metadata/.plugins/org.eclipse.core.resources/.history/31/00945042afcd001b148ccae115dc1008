@@ -1,0 +1,22 @@
+package Decorator;
+
+public class EmployeeCertification extends EmployeeQualification{
+	
+	Employee employee;
+	private description = "General employee"
+	
+	public EmployeeCertification(Employee employee) {
+		this.employee = employee;
+	}
+	
+	public String getDescription() {
+		
+	}
+	
+	public double getSalary() {
+		return employee.getSalary() + 30000;
+	}
+	
+	
+
+}

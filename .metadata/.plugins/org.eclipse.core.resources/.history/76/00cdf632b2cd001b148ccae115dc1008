@@ -1,0 +1,6 @@
+package MCQ;
+
+public abstract class Beverages {
+	
+
+}

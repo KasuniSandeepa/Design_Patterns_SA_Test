@@ -1,0 +1,13 @@
+package Decorator;
+
+public class Manager extends Employee{
+	
+	private double salary = 80000;
+	
+
+	public void getSalary() {
+		System.out.println("Manager salary is "+ this.salary);
+	}
+
+
+}

@@ -1,0 +1,10 @@
+package MCQ;
+
+public abstract class Beverages {
+	
+	private double cost;
+	
+	public abstract void getCost();
+		
+
+}

@@ -1,0 +1,23 @@
+package MCQ;
+
+public class Soy  extends CondimentDecorator{
+	
+	Beverages beverage;
+	
+	public Soy(Beverages beverage) {
+		this.beverage = beverage;
+	}
+
+	@Override
+	public String gerDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double getCost() {
+		// TODO Auto-generated method stub
+		return beverage.getCost() + 20;
+	}
+
+}

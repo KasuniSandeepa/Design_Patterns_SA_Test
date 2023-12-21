@@ -1,0 +1,7 @@
+package MCQ;
+
+public abstract class CondimentDecorator extends Beverages {
+	
+	public abstract String gerDescription(); 
+
+}
